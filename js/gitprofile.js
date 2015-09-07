@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     e.preventDefault();
 
-    var access_token = '<access_token>' // Replace this with a Github access token that you can generate as explained here https://help.github.com/articles/creating-an-access-token-for-command-line-use/
+    var access_token = '8d2c5218f56330e319a23999500c694e4456198a' // Replace this with a Github access token that you can generate as explained here https://help.github.com/articles/creating-an-access-token-for-command-line-use/
     var url = 'https://api.github.com/users/' + $('input.username').val() + "?access_token=" + access_token;
 
     var template = $('template').html();
